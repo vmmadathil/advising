@@ -1,0 +1,188 @@
+{
+    "name": ["Anthropology"],
+    "type": ["B.A."], 
+    "rules": [  
+        "SET 1.1 and 6 SET 1.2",
+        "SET 2 OR (3 SET 3 And 3 SET 4)",
+        "(9 SET 5.1 AND 3 SET 5.2) OR (6 SET 5.1 AND 6 SET 5.2) OR (3 SET 5.1 AND 9 SET 5.2) OR (12 SET 5.2)"
+    ],
+    "sets": [   {
+        "SET 1": [  {
+            "SET 1.1": [    {
+                "courses":  [
+                    "ANTH 2301 - Introductory Cultural Anthropology", 
+                    "ANTH 2415 - Human Evolution: Biological and Social Beginnings of Humankind", 
+                    "ANTH 2463 - The Science of Our Past: An Introduction to Archaeology", 
+                    "ANTH 4399 - Integrated Themes in Anthropology"
+                ]
+            }  
+            ],
+            "SET 1.2": [    {
+                "courses":  [
+                    "ANTH 3304 - North American Archaeology",
+                    "ANTH 3312 - Mesoamerican Archaeology",
+                    "ANTH 3313 - South American Indians of the Past and Present",
+                    "ANTH 3314 - Peoples of Africa",
+                    "ANTH 3318 - Life in the Ancient Southwest",
+                    "ANTH 3321 - Ancient Hawaii",
+                    "ANTH 3323 - East Asia in Motion",
+                    "ANTH 3346 - Culture and Diversity in American Life",
+                    "ANTH 3353 - Indians of North America",
+                    "ANTH 3354 - Latin America: Peoples, Places, and Power",
+                    "ANTH 3355 - Society and Culture in Contemporary Europe",
+                    "ANTH 3358 - Indians of the Southwest From the 16th Century to the Present",
+                    "ANTH 3359 - Peoples and Cultures of the Middle East",
+                    "ANTH 3374 - Cultures and Environments of the Southwest",
+                    "ANTH 3399 - In Search of Ice Age Americans",
+                    "ANTH 4385 - Pacific Island Archaeology"
+                ]
+            }  
+            ]
+    }  
+    ],
+        "SET 2": [  {
+            "courses":  [
+                "ANTH 5681 - Field Methods in Archaeology"
+            ]
+        }  
+        ],
+        "SET 3": [  {
+                "courses":  [
+                    "ANTH 3345 - Introduction to Ethnographic Methods",
+                    "ANTH 4333 - Laboratory Methods in Archaeology",
+                    "ANTH 5344 - Research Methods in Ethnology",
+                    "ANTH 5381 - Field Methods in Archaeology",
+                    "SOCI 3311 - Social Science Research Methods"
+                ]
+            }  
+            ],
+        "SET 4": [  {
+            "courses":  [
+                "ANTH 3334 - Fantastic Archaeology and Pseudoscience: Lost Tribes, Sunken Continents, and Ancient Astronauts",
+                "ANTH 3351 - Forensic Anthropology: Lessons Taught by Bones",
+                "ANTH 3373 - Living with Fire: Past, Present, Future",
+                "ANTH 3385 - Sustainable Living",
+                "ANTH 4325 - Introduction to Osteology I: Human-Animal Interactions",
+                "ANTH 4383 - Geoarchaeology",
+                "ANTH 4391 - Independent Study and Research", 
+                "ANTH 5310 - Human Osteology: Biology of the Human Skeleton",
+                "ANTH 5382 - Field Methods in Archaeology",
+                "SOCI 3312 - Database Methods and Analysis"
+                ]
+        }  
+        ],
+        "SET 5": [  {
+            "SET 5.1": [    {
+                "courses":  [
+                    "ANTH 1321 - Anthropology: A Four-Field Approach",
+                    "ANTH 2130 - Special Topics Abroad",
+                    "ANTH 2230 - Special Topics Abroad",
+                    "ANTH 2301 - Introductory Cultural Anthropology",
+                    "ANTH 2302 - People of the Earth: The First Five Million Years",
+                    "ANTH 2330 - Special Topics Abroad",
+                    "ANTH 2370 - Global Processes and Problems: An Introduction",
+                    "ANTH 2380 - Cultures at Risk: Human Rights and Heritage Today",
+                    "ANTH 2381 - PaleoParents: The Evolution of Human Families",
+                    "ANTH 2382 - Human Nature: Who are we? And how did we get this way?",
+                    "ANTH 2415 - Human Evolution: Biological and Social Beginnings of Humankind",
+                    "ANTH 2463 - The Science of Our Past: An Introduction to Archaeology",
+                    "ANTH 3130 - Special Topics Abroad",
+                    "ANTH 3230 - Special Topics Abroad",
+                    "ANTH 3301 - Health, Healing, and Ethics: Cross-Cultural Perspectives on Sickness and Society",
+                    "ANTH 3302 - Monkeys and Apes: The Nonhuman Primates",
+                    "ANTH 3303 - Self, Culture, and Mind: Introduction to Psychological Anthropology",
+                    "ANTH 3304 - North American Archaeology",
+                    "ANTH 3306 - Introduction to Medical Anthropology",
+                    "ANTH 3307 - Introduction to Biological Anthropology",
+                    "ANTH 3308 - Evolutionary Approaches to Health and Disease",
+                    "ANTH 3310 - Gender, Sex, and Sexuality: Global Perspectives",
+                    "ANTH 3312 - Mesoamerican Archaeology",
+                    "ANTH 3313 - South American Indians of the Past and Present",
+                    "ANTH 3314 - Peoples of Africa",
+                    "ANTH 3315 - Origins of Civilization",
+                    "ANTH 3318 - Life in the Ancient Southwest",
+                    "ANTH 3319 - Humanity and Global Environmental Change",
+                    "ANTH 3321 - Ancient Hawaii",
+                    "ANTH 3323 - East Asia in Motion",
+                    "ANTH 3328 - Gender Violence: Anthropological Perspectives",
+                    "ANTH 3329 - Contesting Development: Global and Local Impacts and Human Rights",
+                    "ANTH 3330 - Special Topics in Anthropology",
+                    "ANTH 3331 - Special Topics in Anthropology",
+                    "ANTH 3333 - The Immigrant Experience",
+                    "ANTH 3334 - Fantastic Archaeology and Pseudoscience: Lost Tribes, Sunken Continents, and Ancient Astronauts",
+                    "ANTH 3336 - Gender and Globalization: Cultural and Ethical Issues",
+                    "ANTH 3340 - Special Topics Abroad",
+                    "ANTH 3345 - Introduction to Ethnographic Methods",
+                    "ANTH 3346 - Culture and Diversity in American Life",
+                    "ANTH 3348 - Health as a Human Right",
+                    "ANTH 3350 - Good Eats and Forbidden Flesh: Culture, Food, and the Global Grocery Market",
+                    "ANTH 3351 - Forensic Anthropology: Lessons Taught by Bones",
+                    "ANTH 3353 - Indians of North America",
+                    "ANTH 3354 - Latin America: Peoples, Places, and Power",
+                    "ANTH 3355 - Society and Culture in Contemporary Europe",
+                    "ANTH 3358 - Indians of the Southwest From the 16th Century to the Present",
+                    "ANTH 3359 - Peoples and Cultures of the Middle East",
+                    "ANTH 3361 - Language in Culture and Society",
+                    "ANTH 3366 - Magic, Myth, and Religion Across Cultures",
+                    "ANTH 3368 - Global Urbanism: Implosions/Explosions",
+                    "ANTH 3370 - Fire on Earth: An Introduction to Pyrogeography",
+                    "ANTH 3373 - Living with Fire: Past, Present, Future",
+                    "ANTH 3374 - Cultures and Environments of the Southwest",
+                    "ANTH 3384 - Paradise Lost? Long-Term Perspectives on Human Impacts on the Environment",
+                    "ANTH 3385 - Sustainable Living",
+                    "ANTH 3388 - Warfare and Violence: The Anthropology and Ethics of Human Conflict",
+                    "ANTH 3390 - The Plundered Past: Archaeology’s Challenges in the Modern World",
+                    "ANTH 3399 - In Search of Ice Age Americans"
+                    ]
+            }  
+            ],
+            "SET 5.2": [    {
+                "courses":  [
+                    "ANTH 4091 - Undergraduate Research",
+                    "ANTH 4191 - Independent Study and Research",
+                    "ANTH 4192 - Independent Study and Research",
+                    "ANTH 4291 - Independent Study and Research",
+                    "ANTH 4292 - Independent Study and Research",
+                    "ANTH 4300 - World Archaeology",
+                    "ANTH 4303 - Political Economy of Health",
+                    "ANTH 4304 - Migration, Ethnicity, and Nationalism",
+                    "ANTH 4305 - Applied Anthropology",
+                    "ANTH 4307 - Global and Public Health",
+                    "ANTH 4309 - Human Rights, Indigenous Peoples, and Nation States",
+                    "ANTH 4325 - Introduction to Osteology I: Human-Animal Interactions",
+                    "ANTH 4333 - Laboratory Methods in Archaeology",
+                    "ANTH 4343 - Biomedicine, Culture, and Power",
+                    "ANTH 4345 - Creating Global and Public Health Impact",
+                    "ANTH 4346 - Environmental Anthropology and Development",
+                    "ANTH 4348 - Toxic Topics: Anthropology, Environment, and Health",
+                    "ANTH 4350 - Special Topics in Anthropology",
+                    "ANTH 4351 - Special Topics in Anthropology",
+                    "ANTH 4352 - Special Topics in Anthropology",
+                    "ANTH 4381 - Internship in Anthropology",
+                    "ANTH 4383 - Geoarchaeology",
+                    "ANTH 4384 - Global Issues and Development: An Overview",
+                    "ANTH 4385 - Pacific Island Archaeology",
+                    "ANTH 4387 - Advances in the Practice of Archaeology",
+                    "ANTH 4388 - Geospatial Archaeology",
+                    "ANTH 4390 - Current Issues in Anthropology",
+                    "ANTH 4391 - Independent Study and Research",
+                    "ANTH 4392 - Independent Study and Research",
+                    "ANTH 4399 - Integrated Themes in Anthropology",
+                    "ANTH 5310 - Human Osteology: Biology of the Human Skeleton",
+                    "ANTH 5334 - History of Anthropology, Part One",
+                    "ANTH 5335 - History of Anthropology, Part Two",
+                    "ANTH 5336 - Health in Cross-Cultural Perspective",
+                    "ANTH 5344 - Research Methods in Ethnology",
+                    "ANTH 5381 - Field Methods in Archaeology",
+                    "ANTH 5382 - Field Methods in Archaeology",
+                    "ANTH 5681 - Field Methods in Archaeology",
+                    "ANTH 5981 - Field Methods in Archaeology"
+                ]
+            }  
+            ]
+        }  
+        ]
+    }
+    ],
+    "special_req": " "
+}

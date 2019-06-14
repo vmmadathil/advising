@@ -1,0 +1,15 @@
+<app-navbar-component class="p-1"></app-navbar-component>
+
+<div *ngIf="!this.loggedIn">
+  <app-login (loggedIn)="this.login($event)" class="m-2"></app-login>
+</div>
+
+<div *ngIf="this.loggedIn">
+  <p class="p-5 text-center">Successful login.</p>
+  <div *ngFor="let u of users;" class="center-block text-center">
+    <app-name-button [name] = "u" class=""></app-name-button>
+  </div>
+
+</div>
+
+
