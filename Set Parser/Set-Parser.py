@@ -163,6 +163,7 @@ def checkType(line):
     else:
         print ('error in file structure! No Rules or Sets found')
 
+
 '''
 Function to increment the line being parsed
 '''
