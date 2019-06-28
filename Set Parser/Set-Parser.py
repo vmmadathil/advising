@@ -28,6 +28,7 @@ parsed
 allSets (list)
 position (int)
 tot (int)
+isEnd (boolean): indicated if end of the file has been reached 
 '''
 courseDict = OrderedDict()
 courseDict["name"] = []
@@ -38,8 +39,12 @@ courseDict["special_req"] = " "
 allSets = []
 position = 0
 tot = len(course_data.index)
-
-
+isEnd = False
+totCol = len(dedman_data.columns)
+totRow = len(dedman_data.index)
+rowPosition = 0
+colPosition = 0
+allCourses[]
 '''
 Function to append the sets and rules to the Course Dictionary
 
@@ -68,10 +73,10 @@ Args:
 '''
 def createRules(line, rulesList):
     #calling global variables for position and total number of entries
-    global position
+    global rowPosition
     global tot
     #the loop should execute until all the lines are being read
-    while(position < tot):
+    while(rowPosition < tot):
         #append rule to the rulesList
         rulesList.append(line)
         #increment to next line
@@ -79,6 +84,8 @@ def createRules(line, rulesList):
         #reassign line if still parsing
         if (position < tot):
             line = course_data[0][position]
+        else:
+
     return rulesList
 
 
@@ -133,46 +140,6 @@ def createSets(line):
 
 
 '''
-Function to ensure the correct action is taken for each line
-    EX: if the line indicates a beginning of a set, this 
-    function ensures the process for creating a set is taken
-
-Args:
-    line (str): the contents of the current cell being processed from 
-    course_data
-'''
-def checkType(line):
-    global allSets
-    global position
-    global tot
-    #initalize empty set for rules
-    rulesList = []
-    #creating a key from the first word of the line
-    key = line.split(' ', 1)[0]
-    #taking actions depending on what the key is
-    if key == 'SET':
-        tempSet = createSets(line)
-        allSets.append(tempSet)
-    if key == 'RULES':
-        incrementLine()
-        line = course_data[0][position]
-        rulesList = createRules(line, rulesList)
-    #create dictionary object when all lines are parsed
-    if tot == position:
-        createDict(allSets, rulesList)
-    else:
-        print ('error in file structure! No Rules or Sets found')
-
-
-'''
-Function to increment the line being parsed
-'''
-def incrementLine():
-    global position
-    position = position + 1
-
-
-'''
 Function to create name and type objects for each degree
 
 Args:
@@ -180,8 +147,6 @@ Args:
     course_data
 '''
 def createName(line):
-    global position
-    global tot
     #empty lists
     degree = []
     degreeType = []
@@ -192,9 +157,79 @@ def createName(line):
     courseDict["name"] = degree
     courseDict["type"] = degreeType
     incrementLine()
+
+
+'''
+Function to ensure the correct action is taken for each line
+    EX: if the line indicates a beginning of a set, this 
+    function ensures the process for creating a set is taken
+
+Args:
+    line (str): the contents of the current cell being processed from 
+    course_data
+'''
+def checkType(line):
+    global allSets
+    global rowPosition
+    global colPosition
+    global totCol
+    global totRow
+    if(rowPosition == 0):
+        createName(course_data[rowPosition][colPosition])
+    else:
+        #initalize empty set for rules
+        rulesList = []
+        #creating a key from the first word of the line
+        print(line)
+        key = line.split(' ', 1)[0]
+        #taking actions depending on what the key is
+        if key == 'SET':
+            tempSet = createSets(line)
+            allSets.append(tempSet)
+        if key == 'RULES':
+            incrementLine()
+            line = course_data[0][position]
+            rulesList = createRules(line, rulesList)
+        #create dictionary object when all lines are parsed
+        if tot == position:
+            createDict(allSets, rulesList)
+        else:
+            print ('error in file structure! No Rules or Sets found')
+
+
+def incrementCol():
+    global colPosition
+    colPosition = colPosition + 1
+
+'''
+Function to increment the line being parsed
+'''
+def incrementLine():
+    global rowPosition
+    rowPosition = rowPosition + 1
+
+
+
+
+
+
+def createAll():
+    global rowPosition
+    global colPosition
+    global totCol
+    global totRow
+    global isEnd
     #pass to checkType as long as processing is still happening
-    while(position < tot):
-        checkType(course_data[0][position])
+    while(isEnd == False):
+        checkType(course_data[rowPosition][colPosition])
+        if(course_data[colPosition][rowPosition] == ' ' and course_data[colPosition][rowPosition + 1] == ' '):
+            incrementCol()
+            if(colPosition == totCol):
+                isEnd = True
+            else:
+                rowPosition = 0
+        else:
+            incrementLine()
 
 
 def main():
