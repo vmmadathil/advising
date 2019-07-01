@@ -1,1 +1,471 @@
-[{"name": ["Finance"], "type": ["B.B.A."], "rules": ["SET 1: CORE COURSES", "3 SET 2: ELECTIVE", "General Business, B.B.A."], "sets": [{"name": "SET 1", "courses": ["ACCT 3311 - Intermediate Accounting I", "ACCT 3312 - Intermediate Accounting II", "ACCT 4311 - Cost Accounting I", "ACCT 4315 - Federal Income Tax I", "ACCT 5314 - Audit Risk and Controls"]}, {"name": "SET 2", "courses": ["ACCT 3391 - Ethics in Accounting", "ACCT 4307 - Business Modeling with Spreadsheets", "ACCT 5317 - Accounting Theory"]}, {"name": "SET 1", "courses": ["FINA 4125 - Advanced Financial Management Laboratory", "FINA 4126 - Investment Analysis and Portfolio Management Laboratory", "FINA 4325 - Advanced Financial Management", "FINA 4326 - Investment Analysis and Portfolio Management", "FINA 4327 - Derivatives", "FINA 4329 - International Finance", "ACCT 3311 - Intermediate Accounting I", "ACCT 3312 - Intermediate Accounting II"]}, {"name": "SET 2", "courses": ["FINA 4328 - Management of Financial Institutions", "FINA 5241 - Quantitative Trading and Strategies", "FINA 5244 - Special Topics in Energy Finance", "FINA 5331 - Advanced Concepts in Financial Management", "FINA 5332 - Practicum in Asset and Wealth Management", "FINA 5343 - Markets and Financial Intermediation", "FINA 5441 - Alternative Assets"]}], "special_req": " "}, {"name": ["Finance"], "type": ["B.B.A."], "rules": ["SET 1: CORE COURSES", "3 SET 2: ELECTIVE", "General Business, B.B.A."], "sets": [{"name": "SET 1", "courses": ["ACCT 3311 - Intermediate Accounting I", "ACCT 3312 - Intermediate Accounting II", "ACCT 4311 - Cost Accounting I", "ACCT 4315 - Federal Income Tax I", "ACCT 5314 - Audit Risk and Controls"]}, {"name": "SET 2", "courses": ["ACCT 3391 - Ethics in Accounting", "ACCT 4307 - Business Modeling with Spreadsheets", "ACCT 5317 - Accounting Theory"]}, {"name": "SET 1", "courses": ["FINA 4125 - Advanced Financial Management Laboratory", "FINA 4126 - Investment Analysis and Portfolio Management Laboratory", "FINA 4325 - Advanced Financial Management", "FINA 4326 - Investment Analysis and Portfolio Management", "FINA 4327 - Derivatives", "FINA 4329 - International Finance", "ACCT 3311 - Intermediate Accounting I", "ACCT 3312 - Intermediate Accounting II"]}, {"name": "SET 2", "courses": ["FINA 4328 - Management of Financial Institutions", "FINA 5241 - Quantitative Trading and Strategies", "FINA 5244 - Special Topics in Energy Finance", "FINA 5331 - Advanced Concepts in Financial Management", "FINA 5332 - Practicum in Asset and Wealth Management", "FINA 5343 - Markets and Financial Intermediation", "FINA 5441 - Alternative Assets"]}], "special_req": " "}]
+[
+    {
+        "name": [
+            "Accounting"
+        ],
+        "type": [
+            "B.B.A."
+        ],
+        "rules": [
+            "SET 1: CORE COURSES",
+            "6 SET 2: ADDITIONAL COURSES",
+            "General Business, B.B.A."
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "ACCT 3311 - Intermediate Accounting I",
+                    "ACCT 3312 - Intermediate Accounting II",
+                    "ACCT 4311 - Cost Accounting I",
+                    "ACCT 4315 - Federal Income Tax I",
+                    "ACCT 5314 - Audit Risk and Controls"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "ACCT 3391 - Ethics in Accounting",
+                    "ACCT 4307 - Business Modeling with Spreadsheets",
+                    "ACCT 5317 - Accounting Theory"
+                ]
+            }
+        ],
+        "special_req": " "
+    },
+    {
+        "name": [
+            "Finance"
+        ],
+        "type": [
+            "B.B.A."
+        ],
+        "rules": [
+            "SET 1: CORE COURSES",
+            "3 SET 2: ELECTIVE",
+            "General Business, B.B.A."
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "FINA 4125 - Advanced Financial Management Laboratory",
+                    "FINA 4126 - Investment Analysis and Portfolio Management Laboratory",
+                    "FINA 4325 - Advanced Financial Management",
+                    "FINA 4326 - Investment Analysis and Portfolio Management",
+                    "FINA 4327 - Derivatives",
+                    "FINA 4329 - International Finance",
+                    "ACCT 3311 - Intermediate Accounting I",
+                    "ACCT 3312 - Intermediate Accounting II"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "FINA 4328 - Management of Financial Institutions",
+                    "FINA 5241 - Quantitative Trading and Strategies",
+                    "FINA 5244 - Special Topics in Energy Finance",
+                    "FINA 5331 - Advanced Concepts in Financial Management",
+                    "FINA 5332 - Practicum in Asset and Wealth Management",
+                    "FINA 5343 - Markets and Financial Intermediation",
+                    "FINA 5441 - Alternative Assets"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Financial Consulting"
+        ],
+        "type": [
+            "B.B.A."
+        ],
+        "rules": [
+            "SET 1: ACCOUNTING CORE",
+            "SET 2: FINANCE CORE",
+            "6 SET 3: ELECTIVES",
+            "General Business, B.B.A."
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "ACCT 3311 - Intermediate Accounting I",
+                    "ACCT 3312 - Intermediate Accounting II",
+                    "ACCT 4315 - Federal Income Tax I"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "FINA 4125 - Advanced Financial Management Laboratory",
+                    "FINA 4126 - Investment Analysis and Portfolio Management Laboratory",
+                    "FINA 4325 - Advanced Financial Management",
+                    "FINA 4326 - Investment Analysis and Portfolio Management",
+                    "FINA 4329 - International Finance"
+                ]
+            },
+            {
+                "name": "SET 3",
+                "courses": [
+                    "ACCT 4307 - Business Modeling with Spreadsheets",
+                    "ACCT 4311 - Cost Accounting I",
+                    "ACCT 5317 - Accounting Theory",
+                    "FINA 4327 - Derivatives",
+                    "FINA 4328 - Management of Financial Institutions",
+                    "FINA 5241 - Quantitative Trading and Strategies",
+                    "FINA 5244 - Special Topics in Energy Finance",
+                    "FINA 5331 - Advanced Concepts in Financial Management",
+                    "FINA 5332 - Practicum in Asset and Wealth Management",
+                    "FINA 5343 - Markets and Financial Intermediation",
+                    "FINA 5441 - Alternative Assets"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "General Business"
+        ],
+        "type": [
+            "B.B.A."
+        ],
+        "rules": [
+            "SET 1 AND 3 SET 2: CORE COURSES",
+            "3 SET 3: ADDITIONAL COURSES",
+            "General Business, B.B.A."
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "ACCT 2301 - Introduction to Financial Accounting",
+                    "ACCT 2302 - Introduction to Managerial Accounting",
+                    "BL 3335 - Business Law",
+                    "BLI 3302 - Business Communications and Leader Development",
+                    "FINA 3320 - Financial Management",
+                    "ITOM 2308 - Information Systems for Management",
+                    "ITOM 3306 - Operations Management",
+                    "MKTG 3340 - Fundamentals of Marketing",
+                    "MNO 3370 - Management"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "STRA 5370 - Strategic Management in a Global Economy",
+                    "CISB 5397 - Entrepreneurship: Starting a Business"
+                ]
+            },
+            {
+                "name": "SET 3",
+                "courses": [
+                    "ITOM 2305 - Managerial Statistics",
+                    "STAT 2331 - Introduction to Statistical Methods",
+                    "EMIS 3340 - Statistical Methods for Engineering and Applied Scientists",
+                    "CSE 4340 - Statistical Methods for Engineers and Applied Scientists\u00a0\u00a0",
+                    "STAT 4340 - Statistical Methods for Engineers and Applied Scientists\u00a0"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Management"
+        ],
+        "type": [
+            "B.B.A."
+        ],
+        "rules": [
+            "SET 1 OR (3 SET 1 AND 3 SET 2): MANAGEMENT COURSES",
+            "(6 SET 3) OR (3 SET 3 AND 3 SET 4): ELECTIVES",
+            "General Business, B.B.A."
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "MNO 3371 - Human Resources Management",
+                    "MNO 4361 - Project Management"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "MNO 4371 - Leadership and Culture",
+                    "MNO 4372 - Leadership and Culture in the Southwest"
+                ]
+            },
+            {
+                "name": "SET 3",
+                "courses": [
+                    "MNO 3373 - Negotiations",
+                    "MNO 3375 - Corporate Social Responsibility and Ethical Leadership",
+                    "MNO 4330 - Introduction to Consulting and Change Management",
+                    "RMI 4340 - Employee Benefits",
+                    "CISB 2379 - Identifying Entrepreneurial Opportunities",
+                    "CISB 4398 - Managing the Entrepreneurial Business",
+                    "CISB 5397 - Entrepreneurship: Starting a Business\u00a0(if senior core is completed with\u00a0STRA 5370)",
+                    "ITOM 4307 - Business Modeling with Spreadsheets\u00a0(ACCT 4307\u00a0will not count for the major)",
+                    "STRA 5370 - Strategic Management in a Global Economy\u00a0(if senior core is completed with\u00a0CISB 5397)"
+                ]
+            },
+            {
+                "name": "SET 4",
+                "courses": [
+                    "MNO 4371 - Leadership and Culture",
+                    "MNO 4372 - Leadership and Culture in the Southwest\u00a0(if not taken for core requirement)"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Marketing"
+        ],
+        "type": [
+            "B.B.A."
+        ],
+        "rules": [
+            "SET 1 AND (0 SET 2 OR 1 SET 2): MARKETING CORE",
+            "6 SET 3: ELECTIVES",
+            "General Business, B.B.A."
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "MKTG 3342 - Marketing Research",
+                    "MKTG 3343 - Consumer Behavior",
+                    "MKTG 5341 - Marketing Management"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "MKTG 5050 - Marketing Internship",
+                    "MKTG 5150 - Marketing Internship"
+                ]
+            },
+            {
+                "name": "SET 3",
+                "courses": [
+                    "MKTG 3345 - Sales and Distribution Management",
+                    "MKTG 3346 - Retailing",
+                    "MKTG 3348 - International Marketing",
+                    "MKTG 3349 - Product and Brand Management",
+                    "MKTG 3350 - Digital and Social Media Marketing",
+                    "MKTG 4345 - Sports Marketing",
+                    "MKTG 5345 - Honors Marketing Practicum"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Real Estate Finance"
+        ],
+        "type": [
+            "B.B.A."
+        ],
+        "rules": [
+            "SET 1: REAL ESTATE CORE",
+            "(3 SET 2 AND 3 SET 3) OR (6 SET 3): ELECTIVES",
+            "General Business, B.B.A."
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "RE 3381 - Real Estate Fundamentals",
+                    "RE 4338 - Real Estate Law",
+                    "RE 4382 - Real Estate Markets and Valuation",
+                    "RE 4389 - Real Estate Finance"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "ACCT 4307 - Business Modeling with Spreadsheets",
+                    "ITOM 4307 - Business Modeling with Spreadsheets"
+                ]
+            },
+            {
+                "name": "SET 3",
+                "courses": [
+                    "BUSE 3300 - Evolution of American Capitalism",
+                    "BUSE 4332 - Energy and Environmental Law",
+                    "CISB 5397 - Entrepreneurship: Starting a Business\u00a0(if senior core is completed with\u00a0STRA 5370)",
+                    "FINA 4325 - Advanced Financial Management",
+                    "FINA 4326 - Investment Analysis and Portfolio Management",
+                    "FINA 4327 - Derivatives",
+                    "FINA 4328 - Management of Financial Institutions",
+                    "FINA 4329 - International Finance",
+                    "FINA 5331 - Advanced Concepts in Financial Management",
+                    "FINA 5332 - Practicum in Asset and Wealth Management",
+                    "MNO 3373 - Negotiations",
+                    "MNO 4361 - Project Management",
+                    "RMI 3360 - Principles of Risk Management"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Business Administration"
+        ],
+        "type": [
+            "Minor"
+        ],
+        "rules": [
+            "SET 1 AND 3 SET 2: REQUIREMENTS"
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "ACCT 2301 - Introduction to Financial Accounting",
+                    "ACCT 2302 - Introduction to Managerial Accounting",
+                    "FINA 3320 - Financial Management",
+                    "ITOM 2308 - Information Systems for Management",
+                    "ITOM 3306 - Operations Management",
+                    "MNO 3370 - Management"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "MKTG 3340 - Fundamentals of Marketing",
+                    "ADV 1341 - Marketing Principles of Advertising\u00a0(for advertising majors and minors only)"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Business"
+        ],
+        "type": [
+            "Minor"
+        ],
+        "rules": [
+            "3 SET 1 AND SET 2 AND 3 SET 3: CORE COURSES",
+            "(6 SET 4) OR (3 SET 4 AND 3 SET 5): ELECTIVES"
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "ACCT 2301 - Introduction to Financial Accounting",
+                    "ACCT 2310 - Accounting Concepts"
+                ]
+            },
+            {
+                "name": "SET 2",
+                "courses": [
+                    "FINA 3310 - Finance Concepts",
+                    "MNO 3310 - Management Concepts"
+                ]
+            },
+            {
+                "name": "SET 3",
+                "courses": [
+                    "MKTG 3310 - Marketing Concepts",
+                    "ADV 1341 - Marketing Principles of Advertising\u00a0(for advertising majors and minors only)"
+                ]
+            },
+            {
+                "name": "SET 4",
+                "courses": [
+                    "BL 3310 - Business Law Concepts",
+                    "BUSE 3310 - Markets and Freedom",
+                    "CISB 2388 - Entrepreneurship Concepts"
+                ]
+            },
+            {
+                "name": "SET 5",
+                "courses": [
+                    "FINA 3312 - Personal Finance",
+                    "BUSE 2301 - Life Cycle Economics: Personal Financial Planning for Today and Tomorrow"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Energy Management"
+        ],
+        "type": [
+            "Concentration"
+        ],
+        "rules": [
+            "SET 1: REQUIREMENTS "
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "BUSE 3331 - From Prospect to Production to Kilowatts: The Business of Energy",
+                    "BUSE 4332 - Energy and Environmental Law",
+                    "BUSE 4333 - Business Management, Planning, and Analysis in Energy",
+                    "BUSE 4334 - Global Energy Markets, Business, and Policy: Spikes, Myths, and Risks"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Entrepreneurship"
+        ],
+        "type": [
+            "Concentration"
+        ],
+        "rules": [
+            "SET 1: REQUIREMENTS "
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "BL 4340 - Law for the Entrepreneur",
+                    "CISB 2379 - Identifying Entrepreneurial Opportunities",
+                    "CISB 4398 - Managing the Entrepreneurial Business",
+                    "CISB 5397 - Entrepreneurship: Starting a Business\u00a0(STRA 5370\u00a0must be taken to complete B.B.A. core requirements)"
+                ]
+            }
+        ],
+        "special_req": []
+    },
+    {
+        "name": [
+            "Real Estate Finance"
+        ],
+        "type": [
+            "Concentration"
+        ],
+        "rules": [
+            "SET 1: REQUIREMENTS "
+        ],
+        "sets": [
+            {
+                "name": "SET 1",
+                "courses": [
+                    "RE 3381 - Real Estate Fundamentals",
+                    "RE 4338 - Real Estate Law",
+                    "RE 4382 - Real Estate Markets and Valuation",
+                    "RE 4389 - Real Estate Finance"
+                ]
+            }
+        ],
+        "special_req": []
+    }
+]

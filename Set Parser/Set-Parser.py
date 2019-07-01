@@ -40,7 +40,7 @@ isEnd (boolean): indicated if end of the file has been reached
 courseDict = OrderedDict()
 courseDict["name"] = []
 courseDict["type"] = []
-courseDict["rules"] = None
+courseDict["rules"] = []
 courseDict["sets"] = []
 courseDict["special_req"] = " "
 allSets = []
@@ -52,12 +52,14 @@ totRow = len(course_data.index)
 rowPosition = 0
 colPosition = 0
 allCourses = []
+courseNumber = 1
 
 def writeCourses():
-    print('hit')
+   #print(allCourses)
+    
     with open('courses.json', 'w') as f:
         json.dump(allCourses , f)
-
+    
 '''
 Function to append the sets and rules to the Course Dictionary
 
@@ -68,11 +70,18 @@ Args:
 def createDict(sets, rules):
     global courseDict
     global allCourses
+    global courseNumber
     #adding rules and sets to the Course Dictionary
     courseDict["rules"] = rules
     courseDict["sets"] = sets
     #writing to json file
-    allCourses.append(courseDict)
+    with (open 'courses' + str(courseNumber) + '.json', 'w') as f:
+        json.dump(courseDict, f)
+    
+    #allCourses.append(courseDict.copy())
+    #print(allCourses)
+    courseDict.update((key, []) for key in courseDict)
+    courseNumber = courseNumber + 1
 
 
 '''
@@ -82,7 +91,7 @@ Args:
     line (str): the contents of the current cell being processed from 
     course_data
     rulesList (list): an empty list to store the rules in after being 
-    parsed
+    par sed
 '''
 def createRules(line, rulesList):
     #calling global variables for position and total number of entries
@@ -204,7 +213,6 @@ def checkType(line):
             print(totCol)
             print(totCol - 1)
             if(colPosition == (totCol-1)):
-                writeCourses()
                 isEnd = True
             else:
                 incrementCol()
@@ -218,13 +226,16 @@ def checkType(line):
             if key == 'SET':
                 print('creating sets')
                 tempSet = createSets(line)
-                allSets.append(tempSet)
+                print(tempSet)
+                allSets.append(tempSet.copy())
+                #tempSet.clear()
             elif key == 'RULES':
                 print('creating rules')
                 incrementLine()
                 line = course_data[colPosition][rowPosition]
                 rulesList = createRules(line, rulesList)
-                createDict(allSets, rulesList)
+                createDict(allSets.copy(), rulesList)
+                allSets.clear()
             else:
                 incrementLine()
 
