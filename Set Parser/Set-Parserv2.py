@@ -274,9 +274,9 @@ def incrementLine():
 
 
 def createAll():
-    #pass to checkType as long as processing is still happening
-    #counter = 0
-    global isEnd
+    counter = 0
+    while (counter != totCol):
+        
     while(isEnd == False):
         #print('checking')
         if(totCol != colPosition and totRow != rowPosition):
