@@ -42,7 +42,7 @@ courseDict["name"] = []
 courseDict["type"] = []
 courseDict["rules"] = []
 courseDict["sets"] = []
-courseDict["special_req"] = " "
+courseDict["special_req"] = []
 allSets = []
 position = 0
 tot = len(course_data.index)
@@ -57,7 +57,7 @@ courseNumber = 1
 def writeCourses():
    #print(allCourses)
     
-    with open('courses.json', 'w') as f:
+    with open('Cox-Classes/courses.json', 'w') as f:
         json.dump(allCourses , f)
     
 '''
@@ -74,14 +74,28 @@ def createDict(sets, rules):
     #adding rules and sets to the Course Dictionary
     courseDict["rules"] = rules
     courseDict["sets"] = sets
+    fileName = 'courses' + str(courseNumber) + '.json'
     #writing to json file
-    with (open 'courses' + str(courseNumber) + '.json', 'w') as f:
+    with open (fileName, 'w') as f:
         json.dump(courseDict, f)
     
     #allCourses.append(courseDict.copy())
     #print(allCourses)
     courseDict.update((key, []) for key in courseDict)
     courseNumber = courseNumber + 1
+
+'''
+def createSpecReq(line):
+    specList = []
+    while(course_data[colPosition][rowPosition] != ' '):
+        #append rule to the rulesList
+        specList.append(line)
+        #increment to next line
+        incrementLine()
+        line = course_data[colPosition][rowPosition]
+    
+    courseDict["special_req"] = specList
+'''
 
 
 '''
@@ -105,8 +119,16 @@ def createRules(line, rulesList):
         incrementLine()
         line = course_data[colPosition][rowPosition]
     
-    print(rulesList)
+    nextLine = course_data[colPosition][rowPosition + 1]
+    nextKey = nextLine.split(' ', 1)[0]
+
+'''
+    if(nextKey == 'SPECIAL'):
+        incrementLine()
+        createSpecReq(nextLine)
+
     return rulesList
+'''
 
 
 '''
@@ -229,13 +251,14 @@ def checkType(line):
                 print(tempSet)
                 allSets.append(tempSet.copy())
                 #tempSet.clear()
-            elif key == 'RULES':
+            if key == 'RULES':
                 print('creating rules')
                 incrementLine()
                 line = course_data[colPosition][rowPosition]
                 rulesList = createRules(line, rulesList)
                 createDict(allSets.copy(), rulesList)
                 allSets.clear()
+            
             else:
                 incrementLine()
 
