@@ -1,4 +1,4 @@
-#Need to build special_req functionality
+#Need to build special_req functionality, but everything else should work
 
 #import statements
 import json
